@@ -1,5 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿String name;
 
-int myScore = 10;
+Console.WriteLine("Who are you???");
 
-Console.WriteLine(myScore);
+
+// The command below gets your name and sends it to the console.
+name = Console.ReadLine();
+
+
+Console.WriteLine("Oh, hello "+name+"!");
+
+Console.ReadLine();
